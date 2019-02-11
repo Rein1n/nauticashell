@@ -1,0 +1,28 @@
+#intro {
+  background: url("../img/currentwallpaper.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #4B0082 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #8b0000 !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #8b0000 !important;
+  }
+}
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.hm-gradient .full-bg-img {
+  background: rgba(120, 52, 135, 0.4);
+  background: linear-gradient(25deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.31) 100%);
+}
