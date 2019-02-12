@@ -315,7 +315,7 @@ foreach ($whitelistPatterns as $pattern) {
   }
 }
 if (!$urlIsValid) {
-  die("Error: The requested URL was blocked by TitaniumNetwork");
+  die("Error: The requested URL is invalid.");
 }
 
 $response = makeRequest($url);
