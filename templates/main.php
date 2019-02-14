@@ -153,6 +153,6 @@ function showPage() {
   new Crate({
     server: '419123358698045453',
     channel: '478975047521009667',
-    shard: 'https://server.stupus.com'
+    shard: 'https://cl3.widgetbot.io'
   })
 </script>
