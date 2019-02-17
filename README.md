@@ -4,7 +4,7 @@ A fixed up and cleaned version of TitaniumPhoenix.
 Initial Release Date: 02/11/2019.
 #### Basic info
 
-This web-app, measuring about 10 MB, is designed to be as light on server storage as possible.
+This web-app, measuring about 7.8 MB, is designed to be as light on server storage as possible.
 
 # Features
 
