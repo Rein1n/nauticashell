@@ -33,4 +33,4 @@ Chatboxes for TitaniumNetwork's Services. Replace if needed.
 Email me at shadow@sly-fox.ml if you have suggestions!
 
 #
-Property of TitaniumNetwork. You have permission to modify, however we require that you leave it open-source since many components of TitaniumPhoenix are open-source.
+Property of TitaniumNetwork. You have permission to modify, however we require that you leave it open-source AND to credit us since many components of TitaniumPhoenix are open-source.
