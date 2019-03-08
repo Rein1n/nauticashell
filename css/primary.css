@@ -1,9 +1,9 @@
 #intro {
-  margin: 0px 10% 0px 10%;
+  margin: 0px 0% 0px 0%;
 }
 
 body {
-  background:  url('../img/background.png');
+  background:  url('../img/space.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -13,17 +13,17 @@ body {
 
 body:before {
  content: "";
- position: absolute;
+ position: fixed;
  left: 0; right: 0;
  top: 0; bottom: 0;
- background: linear-gradient(25deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.31) 100%);
+ background: linear-gradient(15deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.16) 90%);
  z-index: -99999;
 }
 
 .top-nav-collapse {
-  background-color: #4B0082;}
+  background-color: #0b081d;}
 
-.navbar:not(.top-nav-collapse) {background: #0b081d ;}
+.navbar:not(.top-nav-collapse) {background: #320b0d	 ;}
 
 #intro .h6 {
   font-weight: 350;
@@ -31,7 +31,7 @@ body:before {
 }
 
 header {
-  margin-top: 100px;
+  margin-top: 22px;
 }
 
 /* discord */
