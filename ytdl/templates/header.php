@@ -6,40 +6,21 @@
 	<meta name="keywords" content="Video downloader, download youtube, video download, youtube video, youtube downloader, download youtube FLV, download youtube MP4, download youtube 3GP, php video downloader"/>
 	<meta name="description" content="Video downloader, download youtube, video download, youtube video, youtube downloader, download youtube FLV, download youtube MP4, download youtube 3GP, php video downloader"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="css/custom.css" rel="stylesheet">
-	<style type="text/css">
-		#info {
-			padding: 0 0 0 130px;
-			position: relative;
-			height: 100px;
-		}
-		#info img {
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 120px;
-			height: 90px
-		}
-	</style>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/primary.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="index.php">Youtube Downloader</a>
+	<nav class="navbar white-text navbar-expand-lg navbar-dark fixed-top" id="navbar">
+		<div class="container"><a class="navbar-brand" href="index.html"><strong>TitaniumPhoenix</strong></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link waves-effect waves-light" href="/">Go Home</a></li>
+					<li class="nav-item"><a class="nav-link waves-effect waves-light" href="../selection3.html">Games</a></li>
+					<li class="nav-item"><a class="nav-link waves-effect waves-light" href="../selection2.html">Watch Movies/TV</a></li>
+					<li class="nav-item"><a class="nav-link waves-effect waves-light" href="../contributors.html">Staff & Contributors</a></li></ul>
+				<a class="btn btn-primary btn-rounded my-0 waves-effect waves-light" href="https://github.com/titaniumnetwork-dev" target="_blank">Check us out on Github!</a>
+			</div>
 		</div>
-		<div id="navbar" class="collapse navbar-collapse">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.php">Home</a></li>
-			</ul>
-		</div><!--/.nav-collapse -->
-	</div>
-</nav>
+	</nav>
 <div class="container">
