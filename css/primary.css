@@ -12,9 +12,9 @@ body:before {
 }
 
 .top-nav-collapse {
-  background-color: #2a0411;}
+  background-color: #81456f;}
 
-.navbar:not(.top-nav-collapse) {background: #2a0411;}
+.navbar:not(.top-nav-collapse) {background: #81456f;}
 
 #intro .h6 {
   font-weight: 350;
