@@ -1,13 +1,10 @@
-cookie-clicker
-==============
+cookieclicker
+=============
 
-This is a copy of the publicly available source of the game cookie clicker by orteil.  
+<img src="img/perfectCookie.png">
 
-Here is the actual game:
-http://orteil.dashnet.org/cookieclicker/
+The original game can be found at http://orteil.dashnet.org/cookieclicker/
 
-Here is the orteil home page:
-http://orteil.dashnet.org/
+This copy for, errrr, like, educational purpose.
 
-
-The purpose of this repository is to provide a jumping off point for javascript programming for Coder Dojo members.
+Download a copy of this if you want to "educate" yourself offline, or go to http://ozh.github.io/cookieclicker/ if you cannot "educate" yourself on the original URL.
