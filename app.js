@@ -76,4 +76,4 @@ app.get("/no-js", function(req, res) {
 });
 
 // for compatibility with gatlin and other servers, export the app rather than passing it directly to http.createServer
-app.listen('nodeunblock.sock')
+app.listen('/nodeunblock.sock')
