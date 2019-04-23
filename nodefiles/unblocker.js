@@ -23,7 +23,7 @@ Unblocker.contentTypes = require('./content-types.js');
 Unblocker.getRealUrl = require('./get-real-url.js');
 
 var defaultConfig = {
-    prefix: '/proxy/',
+    prefix: '/nodefiles/',
     host: null, // can be used to override the url used in redirects
     requestMiddleware: [],
     responseMiddleware: [],
