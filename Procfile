@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 -C apache.conf & node app.js
+web: node app.js & vendor/bin/heroku-php-apache2 -C apache.conf
