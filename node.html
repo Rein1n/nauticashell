@@ -80,29 +80,28 @@
   <div class="container">
 
     <div class="main">
-
-      <h1>NodeUnblocker</h1>
-
       <div id="error"></div>
 
-      <form action="" method="get" id="unblocker-form">
+      <form action="" method="get" id="web-search-box">
         <p>
           URL:
-          <input type="text" id="url" name="url" autofocus="autofocus" />
+          <input type="text" id="url" name="url" />
           <input type="submit" value="Go" />
         </p>
 
       </form>
 
 
-      <h3>About Node Unblocker</h3>
-      <p>Node Unblocker is a web proxy, similar to CGIProxy, PHProxy, or Glype, that allows users to evade filters and censorship and access blocked websites. This can even play some games!</p>
-      <p>You can play Surviv.io, Shellshocker.io, Superhex.io, Anark.io, Mope.io, Paper.io  and maybe more!</p>
-      <p>Node Unblocker is written in JavaScript with <a href="http://nodejs.org">node.js</a>.</p>
-
+      <h3>Article Info:</h3>
+      <p>You can access Surviv.io, Shellshocker.io, Superhex.io, Anark.io, Mope.io, Paper.io, and maybe more!</p>
     </div>
 
     <div class="footer">
+      <h6>fillertext</h6>
+      <h6></h6>
+      <h6>
+      Interesting: Hillary Clinton has been telling America that she is the most qualified candidate for president based on her 'record,' which she says includes her eight years in the White House as First Lady - or 'co-president' - and her seven years in the Senate. Here is a reminder of what that record includes: - As First Lady, Hillary assumed authority over Health Care Reform, a process that cost the taxpayers over $13 million. She told both Bill Bradley and Patrick Moynihan, key votes needed to pass her legislation, that she would 'demonize' anyone who opposed it. But it was opposed; she couldn't even get it to a vote in a Congress controlled by her own party. (And in the next election, her party lost control of both the House and Senate.) - Hillary assumed authority over selecting a female Attorney General. Her first two recommendations, Zoe Baird and Kimba Wood, were forced to withdraw their names from consideration. She then chose Janet Reno. Janet Reno has since been described by Bill himself as 'my worst mistake.' - Hillary recommended Lani Guanier for head of the Civil Rights Commission. When Guanier's radical views became known, her name had to be withdrawn. - Hillary recommended her former law partners, Web Hubbell, Vince Foster, and William Kennedy for positions in the Justice Department, White House staff, and the Treasury, respectively. Hubbell was later imprisoned, Foster committed suicide, and Kennedy was forced to resign. - Hillary also recommended a close friend of the Clintons, Craig Livingstone, for the position of director of White House security. When Livingstone was investigated for the improper access of up to 900 FBI files of Clinton enemies (?Filegate?) and the widespread use of drugs by White House staff, both Hillary and her husband denied knowing him.
+    </h6>
     </div>
 
   </div>
@@ -111,28 +110,15 @@
 			return document.getElementById(id);
 		}
 
-		$('unblocker-form').onsubmit = function(){
+		$('web-search-box').onsubmit = function(){
 			var url = $('url').value;
 			if(url.substr(0,4) != "http"){
 				url = "http://" + url;
 			}
-			window.location.href = 'http://www.dhcp-error.ga/list/' + url;
+			window.location.href = 'http://www.autorepairguides.ga/list/' + url;
 			return false;
 		};
 
-		function checkError(){
-			var search = window.location.search;
-			var start = search.indexOf('error=');
-			if(start > -1){
-				var stop = search.indexOf('&', start);
-				if(stop == -1){ stop = undefined; }
-				// +6 for "error="
-				var err = search.substr(start+6, stop);
-                var $error = $('error');
-				$error.innerText = $error.textContent = decodeURIComponent(err);
-				$error.style.display = "block";
-			}
-		}
 
 		window.onload = function() {
 			$('url').focus();
