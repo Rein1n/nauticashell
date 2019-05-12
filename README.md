@@ -1,5 +1,5 @@
-# Phoenix-Reborn
-A fixed up and cleaned version of TitaniumPhoenix.
+# TitaniumPhoenix (Reborn)
+A beautiful and lightweight web-proxy site built to be easy to use and modify for everyone.
 
 Initial Release Date: 02/11/2019.
 #### Basic info
