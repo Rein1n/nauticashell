@@ -14,7 +14,7 @@ horde.Mouse = function (canvas) {
 	// iOS
 	horde.on("touchmove", this.handleMouseMove, window, this);
 	horde.on("touchstart", this.handleMouseDown, window, this);
-	horde.on("touchend", this.handleMouseUp, window, this);	
+	horde.on("touchend", this.handleMouseUp, window, this);
 	*/
 };
 
