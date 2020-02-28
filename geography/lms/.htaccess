@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "patronize"
+AuthUserFile "/home/russianhat/.htpasswds/public_html/phoenix/geography/lms/passwd"
+require valid-user
