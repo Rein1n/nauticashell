@@ -35,7 +35,7 @@
           <h3>Local PHP-Proxy</h3>
         </center>
         <center>
-						<form action="index.php" method="post" style="transform:scale(1.1)">
+						<form action="./geographic/index.php" method="post" style="transform:scale(1.1)">
 							<p>
 								<input name=url type="text" placeholder="Enter URL" style="border:none;border-radius: 5px;padding:10px;"/>&nbsp;
 								<input type="submit" style="border:none;border-radius: 5px;padding:10px;width:40px;background:#704ea0;color:#fff;font-weight:bold;" value="GO" />
@@ -50,20 +50,7 @@
           <p>-Powered by PHP-Proxy</p>
         </center>
       </div>
-      <script>
-        function $(id) {
-          return document.getElementById(id);
-        }
-        $('web-search-box').onsubmit = function() {
-          var url = $('url').value;
-          //this is the URL for the server
-          window.location.href = `cd182/index.php?cdURL=${url}`;
-          return false;
-        };
-        window.onload = function() {
-          $('url').focus();
-        }
-      </script>
+
     </div>
   </div>
   </div>
