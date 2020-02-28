@@ -31,7 +31,7 @@ Chatboxes for TitaniumNetwork's Services. Replace if needed.
 
 #### Suggest Some Stuff!
 
-Email me at shadow@sly-fox.ml if you have suggestions!
+Email me at titaniumnetwork.official@gmail.com if you have suggestions!
 
 #
 Property of TitaniumNetwork. You have permission to modify, however we require that you leave it open-source AND to credit us since many components of TitaniumPhoenix are open-source.
