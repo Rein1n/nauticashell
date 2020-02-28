@@ -13,14 +13,6 @@ This web-app, measuring about 14.2 MB, is designed to be as light on server stor
 
 This allows your PhoenixHub site to have a proxy already equipped when you deploy it so you can quickly get to circumventing censorship!
 
-#### Locally Stored YouTube Proxy
-
-Since YouTube does not work on the Local Proxy, we came up with this as a solution: The YouTube Proxy!
-
-The YouTube Proxy allows streaming of resolutions and framerates of 4K and 60 FPS, and will allow playback of any video and it uses YouTube's URL patterns for easy of use.
-
-**This requires you to have a YouTube Data v3 API key, which goes into the apikey config var on Heroku!
-
 #### Games
 
 This site has links to many games on a JSCDN for quick and efficient access.
